@@ -1,26 +1,11 @@
 
 import numpy as np
 import pandas as pd
-# import matplotlib.pyplot as plt
-# from sklearn.feature_extraction.text import TfidfVectorizer
-# from sklearn.metrics.pairwise import linear_kernel, cosine_similarity
-# from underthesea import word_tokenize, pos_tag, sent_tokenize
 import warnings
 from gensim import corpora, models, similarities
-# import jieba
-# import re
 import streamlit as st
 import pickle
 from surprise import Reader, Dataset, SVD
-# from scipy.sparse import csr_matrix
-# from surprise.model_selection.validation import cross_validate
-
-
-# STOP_WORD_FILE = 'vietnamese-stopwords.txt'
-# with open(STOP_WORD_FILE, 'r', encoding='utf-8') as file:
-#     stop_words = file.read()
-
-# stop_words = stop_words.split('\n')
 
 
 with open('model.pkl', 'rb') as f:
