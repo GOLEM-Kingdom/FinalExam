@@ -4,4 +4,3 @@ surprise
 seaborn
 streamlit
 gensim
-pickle
